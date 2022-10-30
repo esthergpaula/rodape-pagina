@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #3A4D7C;
+    color: #FFFFFF;
+    width: 1449px;
+    height: 700px;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #1E3161;
+    width: 1239px;
+    min-height: 529px;
+    border-radius: 10px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.section-one{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.about ul li a{
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.title{
+    font-family: Merriweather;
+    font-size: 26px;
+    font-weight: Black;
+    padding-bottom: 24px;
+}
+
+.desactive{
+    background-color: #1E3161;
+    color: #FFFFFF;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.active{
+    background-color: #5AC1D8;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.language{
+    width: 530px;
+    /*margin: 24px 140px 94px 144px;*/
+    padding: 90px 90px 0 90px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 90px 70px 0px 70px;
+}
+
+.about ul li a{
+    color: #FFFFFF;
+}
+
+
+.about ul li {
+    padding: 10px;
+}
+
+
+.social-media{
+    padding: 90px 90px 90px 0;
+}
+
+button{
+    padding: 10px;
+}
+
+.section-two a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.section-two li{
+    padding: 63px 10px;
+}
+
+
+.section-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-two ul{
+    display: flex;
+    flex-direction: row;
+}
+
+
